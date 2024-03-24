@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+/* Navigation Start */
+.navbar {
+  background-color: #f5fcff;
+  
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 550;
+}
+/* Navigation End */
+
+/* Home Start */
+.home{
+  height: 100vh;
+  display: flex;
+  align-items: center;  
+}
+
+.content{
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.home-video{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-video video{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.home-overlay{
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: .85;
+}
+
+.home-content{
+  z-index: 2;
+}
+
+.home-content h4{
+  font-size: 50px;
+  margin-bottom: 0;
+  color: white;
+}
+.home-content h1{
+  font-size: 50px;
+  margin-bottom: 0;
+  color: white;
+}
+.home-content p{
+  font-size: 50px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+/* Home End */
+
+/* Offers Section Start */
+.offers {
+  padding: 60px 11% 60px;
+  background-color: #f5fcff;
+}
+
+.offers h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.offers .card {
+  padding: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  min-height: 400px;
+}
+
+.offers .card i {
+  font-size: 25px;
+  color: blue;
+}
+
+.offers .card h5 {
+  margin-top: 10px;
+}
+/* Offers Section End */
+
+/* Popular Destinies Section Start */
+.popular {
+  padding: 60px 11% 60px;
+}
+
+.popular h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.popular .btn .card {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.popular .btn .card .images {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+.popular .card-img-overlay h3 {
+  color: white;
+}
+
+.popular .card-img-overlay h6 {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .row {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+
+  .col-md-3 {    
+    width: 100%; 
+  }
+}
+/* Popular Destinies Section End */
+
+/* About Section Start */
+.about {
+  padding: 100px 11% 100px;
+  background-color: #f5fcff;
+}
+
+.about .card {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.about .card img {
+  border-radius: 10px;
+}
+
+.about-btn {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: wheat;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  width: 135px;
+}
+/* About Section End */
+
+/* Packages Section Start */
+.packages {
+  padding: 100px 1% 100px;
+}
+
+.packages h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.packages .card {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.packages .card img {
+  padding: 10px;
+}
+
+.packages .card-body h3 {
+  font-size: 25px;
+}
+
+.packages .row {
+  margin-top: 20px;
+}
+
+.rating i {
+  color: orange;
+}
+
+.packages h5 {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.packages h5 button {
+  float: right;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: blue;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.packages h5 button:hover {
+  background-color: blue;
+  color: white;
+}
+/* Packages Section End */
+
+/* Review Section Start */
+.reviews {
+  padding: 100px 11% 100px;
+  background-color: #f5fcff;
+}
+
+.reviews h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.reviews .card {
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+.reviews .card:hover {
+  background-color: blue;
+  color: white;
+}
+
+.reviews img {
+  width: 100px;
+}
+
+.star {
+  margin-top: 20px;
+}
+
+.star i {
+  color: orange;
+}
+/* Review Section End */
+
+/* Contact Section Start*/
+.contact {
+  padding: 100px 11% 100px;
+}
+
+.contact h1 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.contact h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.social h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.social i {
+  padding: 10px;
+  background: transparent;
+  color: blue;
+  border: 2px solid blue;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.social i:hover {
+  background-color: blue;
+  color: white;
+}
+
+.contact .col-md-5 {
+  background-color: #f5fcff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+
+.contact h2 {
+  font-size: 25px;
+}
+
+.form-control {
+  resize: none;
+}
+
+.contact .button-mine {
+  background-color: blue;
+  width: 150px;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.contact .button-mine:hover {
+  width: 170px;
+}
+/* Contact Section End*/
+
+/* Footer Start */
+#footer {
+  margin-top: 50px;
+  padding: 50px 11% 50px;
+  background-color: #f5fcff;  
+}
+
+#footer h1 {
+  font-weight: 600;
+}
+
+#footer ul li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#footer ul li a:hover {
+  color: blue;
+}
+
+#footer ul list-style:hover {
+  list-style-type: none;
+}
+
+#footer h5 {
+  padding: 0px 3% 0px;
+  font-size: 15px;
+}
+/* Footer End */
+
+/* Rating Star Effect Start */
+.rating i,
+.rating i:hover ~ i {
+  color: #222;
+  text-shadow: none;
+  transition: color 200ms, text-shadow 200ms;
+  transition-delay: 0;
+}
+
+.rating:hover i {
+  color: #fc0;
+  text-shadow: #fc0 0 0 20px;
+}
+
+.rating:hover i:nth-child(2) {
+  transition-delay: 30ms;
+}
+
+.rating:hover i:nth-child(3) {
+  transition-delay: 60ms;
+}
+
+.rating:hover i:nth-child(4) {
+  transition-delay: 90ms;
+}
+
+.rating:hover i:nth-child(5) {
+  transition-delay: 120ms;
+}
+/* Rating Star Effect End */
