@@ -9,8 +9,11 @@
 
 /* Navigation Start */
 .navbar {
-  background-color: #f5fcff;
-  
+  background-color: #f5fcff;  
+}
+
+.navbar a .country-flag{
+  width: 30px;
 }
 
 .nav-item .nav-link {
