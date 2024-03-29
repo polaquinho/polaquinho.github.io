@@ -9,10 +9,10 @@
 
 /* Navigation Start */
 .navbar {
-  background-color: #f5fcff;  
+  background-color: #f5fcff;
 }
 
-.navbar a .country-flag{
+.navbar a .country-flag {
   width: 30px;
 }
 
@@ -24,13 +24,13 @@
 /* Navigation End */
 
 /* Home Start */
-.home{
+.home {
   height: 100vh;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
-.content{
+.content {
   max-width: 40rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-.home-video{
+.home-video {
   position: absolute;
   left: 0;
   width: 100%;
@@ -46,36 +46,36 @@
   overflow: hidden;
 }
 
-.home-video video{
+.home-video video {
   min-width: 100%;
   min-height: 100%;
 }
 
-.home-overlay{
+.home-overlay {
   width: 100vw;
   position: absolute;
   top: 0;
   left: 0;
   background: #303952;
   z-index: 1;
-  opacity: .85;
+  opacity: 0.85;
 }
 
-.home-content{
+.home-content {
   z-index: 2;
 }
 
-.home-content h4{
+.home-content h4 {
   font-size: 50px;
   margin-bottom: 0;
   color: white;
 }
-.home-content h1{
+.home-content h1 {
   font-size: 50px;
   margin-bottom: 0;
   color: white;
 }
-.home-content p{
+.home-content p {
   font-size: 50px;
   margin-bottom: 0;
   color: white;
@@ -141,9 +141,9 @@
 }
 
 .popular .btn .card .images {
-  width: 100%; 
-  height: auto; 
-  object-fit: cover; 
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -156,14 +156,14 @@
 }
 
 @media (max-width: 768px) {
-  .row {    
+  .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
 
-  .col-md-3 {    
-    width: 100%; 
+  .col-md-3 {
+    width: 100%;
   }
 }
 /* Popular Destinies Section End */
@@ -359,7 +359,7 @@
 #footer {
   margin-top: 50px;
   padding: 50px 11% 50px;
-  background-color: #f5fcff;  
+  background-color: #f5fcff;
 }
 
 #footer h1 {
